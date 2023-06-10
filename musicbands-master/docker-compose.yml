@@ -1,0 +1,17 @@
+version: '3.3'
+
+networks:
+  music-bands:
+
+services:
+  music-bands:
+    image: mcr.microsoft.com/dotnet/sdk:6.0
+    container_name: music-bands
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - music-bands
+    ports:
+     - 8080:80
+    restart: unless-stopped

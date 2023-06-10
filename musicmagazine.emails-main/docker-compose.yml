@@ -1,0 +1,17 @@
+version: '3.3'
+
+networks:
+  music-bands-emails:
+
+services:
+  music-bands-emails:
+    image: mcr.microsoft.com/dotnet/sdk:6.0
+    container_name: music-bands-emails
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - music-bands-emails
+    ports:
+     - 8080:80
+    restart: unless-stopped

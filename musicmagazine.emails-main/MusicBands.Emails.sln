@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicBands.Emails.Host", "MusicBands.Emails.Host\MusicBands.Emails.Host.csproj", "{ED58E566-09A4-4833-BE26-3E66803DEBDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicBands.Emails.Api", "MusicBands.Emails.Api\MusicBands.Emails.Api.csproj", "{BF4C07DC-D29C-4B7F-B76F-68359391E66B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicBands.Emails.Domain", "MusicBands.Emails.Domain\MusicBands.Emails.Domain.csproj", "{78228EF4-5DC6-4B01-95E0-9A1B96FB4078}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicBands.Emails.Data", "MusicBands.Emails.Data\MusicBands.Emails.Data.csproj", "{1A494CAC-2548-475D-8B41-4B233C98BF5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicBands.Emails.Application", "MusicBands.Emails.Application\MusicBands.Emails.Application.csproj", "{007FF7F5-B6D7-4342-8B6F-44504C1F1CEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED58E566-09A4-4833-BE26-3E66803DEBDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED58E566-09A4-4833-BE26-3E66803DEBDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED58E566-09A4-4833-BE26-3E66803DEBDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED58E566-09A4-4833-BE26-3E66803DEBDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF4C07DC-D29C-4B7F-B76F-68359391E66B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF4C07DC-D29C-4B7F-B76F-68359391E66B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF4C07DC-D29C-4B7F-B76F-68359391E66B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF4C07DC-D29C-4B7F-B76F-68359391E66B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78228EF4-5DC6-4B01-95E0-9A1B96FB4078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78228EF4-5DC6-4B01-95E0-9A1B96FB4078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78228EF4-5DC6-4B01-95E0-9A1B96FB4078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78228EF4-5DC6-4B01-95E0-9A1B96FB4078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A494CAC-2548-475D-8B41-4B233C98BF5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A494CAC-2548-475D-8B41-4B233C98BF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A494CAC-2548-475D-8B41-4B233C98BF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A494CAC-2548-475D-8B41-4B233C98BF5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{007FF7F5-B6D7-4342-8B6F-44504C1F1CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007FF7F5-B6D7-4342-8B6F-44504C1F1CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007FF7F5-B6D7-4342-8B6F-44504C1F1CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007FF7F5-B6D7-4342-8B6F-44504C1F1CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

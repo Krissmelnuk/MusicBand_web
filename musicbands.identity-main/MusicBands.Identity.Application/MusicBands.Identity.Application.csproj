@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentValidation" Version="11.1.1" />
+      <PackageReference Include="MediatR" Version="10.0.1" />
+      <PackageReference Include="MusicBands.Emails.Api" Version="1.0.*" />
+      <PackageReference Include="MusicBands.Shared" Version="1.3.*" />
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.20.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MusicBands.Identity.Api\MusicBands.Identity.Api.csproj" />
+      <ProjectReference Include="..\MusicBands.Identity.Domain\MusicBands.Identity.Domain.csproj" />
+    </ItemGroup>
+
+</Project>

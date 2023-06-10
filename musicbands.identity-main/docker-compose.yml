@@ -1,0 +1,17 @@
+version: '3.3'
+
+networks:
+  music-bands-identity:
+
+services:
+  music-bands-identity:
+    image: mcr.microsoft.com/dotnet/sdk:6.0
+    container_name: music-bands-identity
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - music-bands-identity
+    ports:
+     - 8080:80
+    restart: unless-stopped
